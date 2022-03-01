@@ -186,8 +186,9 @@ ol {
 }
 .tumba {
   background: #f5f4fa;
-  outline: 1px sienna;
+  outline: 1px solid tomato;
 }
+
 .features-title {
   font-family: var(--main-font);
   font-weight: 700;
