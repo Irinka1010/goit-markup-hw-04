@@ -84,11 +84,17 @@ ol {
 }
 .nav-link:hover,
 .nav-link:focus,
+.header-icon:hover,
+.nav-link:focus,
+.header-icon:focus,
 .header-email:hover,
 .header-email:focus,
 .header-phone:hover,
 .header-phone:focus {
   color: var(--accent-txt-cl);
+}
+.header-icon {
+  margin-right: 10px;
 }
 .header-email,
 .header-phone {
