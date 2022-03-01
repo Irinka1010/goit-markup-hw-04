@@ -95,6 +95,7 @@ ol {
 }
 .header-icon {
   margin-right: 10px;
+  color: var(--primary-txt-cl);
 }
 .header-email,
 .header-phone {
