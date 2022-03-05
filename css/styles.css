@@ -311,12 +311,28 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-txt-cl);
 }
+.socials {
+  display: flex;
+  padding-left: 0;
+  justify-content: center;
+  align-items: center;
+}
+.socials-item:not(:last-child) {
+  margin-right: 10px;
+}
 .socials-link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 44px;
   height: 44px;
+
   background-color: #ffffff;
   border-radius: 50%;
+}
+.icon-socials {
+  fill: #afb1b8;
 }
 
 /* Подвал */
