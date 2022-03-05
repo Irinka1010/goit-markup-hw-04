@@ -311,6 +311,13 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-txt-cl);
 }
+.socials-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
 
 /* Подвал */
 
