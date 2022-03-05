@@ -316,6 +316,7 @@ img {
   padding-left: 0;
   justify-content: center;
   align-items: center;
+  display: important;
 }
 .socials-item:not(:last-child) {
   margin-right: 10px;
