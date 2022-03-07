@@ -84,18 +84,20 @@ ol {
 }
 .nav-link:hover,
 .nav-link:focus,
-.header-icon:hover,
 .nav-link:focus,
-.header-icon:focus,
 .header-email:hover,
 .header-email:focus,
 .header-phone:hover,
 .header-phone:focus {
   color: var(--accent-txt-cl);
+  fill: var(--accent-txt-cl);
 }
 .header-icon {
   margin-right: 10px;
 }
+
+
+
 .header-email,
 .header-phone {
   color: var(--secondary-txt-cl);
@@ -336,6 +338,7 @@ img {
 .socials-link:hover,
 .socials-link:focus{
   background-color: var(--accent-txt-cl)
+  
 }
 
 .icon-socials {
@@ -345,6 +348,43 @@ img {
 .icon-socials:focus{
   fill:  #ffffff;
 }
+/*Постоянные клиенты  */
+.clients-list{
+  display: flex;
+  padding-left: 0;
+  justify-content: center;
+  align-items: center;
+}
+.clients-item{
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.clients-item:hover,
+.clients-item:focus{
+  border-color: var(--accent-txt-cl);
+}
+
+.clients-item:not(:last-child){
+  margin-right: 30px;
+}
+
+.clients-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .icon-clients{
+   margin: 16px 32px;
+   fill: #AFB1B8;
+ }
+
+ .icon-clients:hover,
+ .icon-clients:focus{
+  fill:var(--accent-txt-cl)
+ }
 
 /* Подвал */
 
