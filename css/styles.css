@@ -335,19 +335,20 @@ img {
   background-color: #ffffff;
   border-radius: 50%;
 }
+.socials-link:hover .icon-socials,
+.socials-link:focus .icon-socials{
+ fill:  #ffffff;
+}
+
 .socials-link:hover,
 .socials-link:focus{
   background-color: var(--accent-txt-cl)
-  
 }
 
 .icon-socials {
   fill: #afb1b8;
 }
-.icon-socials:hover,
-.icon-socials:focus{
-  fill:  #ffffff;
-}
+
 /*Постоянные клиенты  */
 .clients-list{
   display: flex;
